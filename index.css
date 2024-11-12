@@ -1,0 +1,18 @@
+.guarantees {
+  list-style: none;
+  padding: 0;
+}
+
+.guarantees li {
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+  color: #fff;
+}
+
+.guarantees li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #0de21c;
+}
